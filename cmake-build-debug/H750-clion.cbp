@@ -98,7 +98,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/STM32_CODE/H750-clion/Core/Inc/fmc.h">
+			<Option target="H750-clion.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32_CODE/H750-clion/Core/Inc/gpio.h">
+			<Option target="H750-clion.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32_CODE/H750-clion/Core/Inc/ltdc.h">
 			<Option target="H750-clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32_CODE/H750-clion/Core/Inc/main.h">
@@ -113,7 +119,13 @@
 		<Unit filename="D:/STM32_CODE/H750-clion/Core/Inc/stm32h7xx_it.h">
 			<Option target="H750-clion.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32_CODE/H750-clion/Core/Src/fmc.c">
+			<Option target="H750-clion.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32_CODE/H750-clion/Core/Src/gpio.c">
+			<Option target="H750-clion.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32_CODE/H750-clion/Core/Src/ltdc.c">
 			<Option target="H750-clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32_CODE/H750-clion/Core/Src/main.c">
@@ -269,6 +281,12 @@
 		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h">
 			<Option target="H750-clion.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ltdc.h">
+			<Option target="H750-clion.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ltdc_ex.h">
+			<Option target="H750-clion.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h">
 			<Option target="H750-clion.elf"/>
 		</Unit>
@@ -282,6 +300,9 @@
 			<Option target="H750-clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h">
+			<Option target="H750-clion.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sdram.h">
 			<Option target="H750-clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h">
@@ -312,6 +333,9 @@
 			<Option target="H750-clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h">
+			<Option target="H750-clion.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h">
 			<Option target="H750-clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h">
@@ -368,6 +392,12 @@
 		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c">
 			<Option target="H750-clion.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c">
+			<Option target="H750-clion.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c">
+			<Option target="H750-clion.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c">
 			<Option target="H750-clion.elf"/>
 		</Unit>
@@ -383,6 +413,9 @@
 		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c">
 			<Option target="H750-clion.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c">
+			<Option target="H750-clion.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c">
 			<Option target="H750-clion.elf"/>
 		</Unit>
@@ -393,6 +426,9 @@
 			<Option target="H750-clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c">
+			<Option target="H750-clion.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c">
 			<Option target="H750-clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32_CODE/H750-clion/HardWare/Inc/Lcd_int.h">

@@ -45,7 +45,11 @@ CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ext
  D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_hsem.h \
  D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_i2c.h \
  D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_i2c_ex.h \
+ D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_ltdc.h \
+ D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_ltdc_ex.h \
  D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_pwr.h \
  D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_pwr_ex.h \
+ D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_sdram.h \
+ D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_ll_fmc.h \
  D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_spi.h \
  D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_spi_ex.h

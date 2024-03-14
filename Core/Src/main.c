@@ -18,8 +18,10 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "ltdc.h"
 #include "spi.h"
 #include "gpio.h"
+#include "fmc.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -87,18 +89,20 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_SPI1_Init();
+  MX_FMC_Init();
+  MX_LTDC_Init();
   /* USER CODE BEGIN 2 */
     LCD_Init();
     //HAL_Delay(1000);
     HAL_Delay(2);
-    LCD_WriteCommand(0xFF);
-    LCD_WriteData(0x77);
-    LCD_WriteData(0x01);
-    LCD_WriteData(0x00);
-    LCD_WriteData(0x00);
-    LCD_WriteData(0x12);
-    LCD_WriteCommand(0xD1);
-    LCD_WriteData(0x81);
+//    LCD_WriteCommand(0xFF);
+//    LCD_WriteData(0x77);
+//    LCD_WriteData(0x01);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x12);
+//    LCD_WriteCommand(0xD1);
+//    LCD_WriteData(0x81);
 
   /* USER CODE END 2 */
 
@@ -112,42 +116,42 @@ int main(void)
       HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
       HAL_Delay(100);
       //LCD_WriteCommand(0xD2);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x00);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x01);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x02);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x03);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x04);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x05);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x06);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x07);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x08);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x09);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x0A);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x0B);
-      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x00);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x01);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x02);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x03);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x04);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x05);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x06);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x07);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x08);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x09);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x0A);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x0B);
+//      HAL_Delay(1000);
 
 
 

@@ -31,7 +31,9 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/STM32_CODE/H750-clion/Core/Src/fmc.c" "CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.obj.d"
   "D:/STM32_CODE/H750-clion/Core/Src/gpio.c" "CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.obj.d"
+  "D:/STM32_CODE/H750-clion/Core/Src/ltdc.c" "CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.obj.d"
   "D:/STM32_CODE/H750-clion/Core/Src/main.c" "CMakeFiles/H750-clion.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Core/Src/main.c.obj.d"
   "D:/STM32_CODE/H750-clion/Core/Src/spi.c" "CMakeFiles/H750-clion.elf.dir/Core/Src/spi.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Core/Src/spi.c.obj.d"
   "D:/STM32_CODE/H750-clion/Core/Src/stm32h7xx_hal_msp.c" "CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj.d"
@@ -50,15 +52,19 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj.d"
   "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj.d"
   "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj.d"
+  "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj.d"
+  "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj.d"
   "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj.d"
   "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj.d"
   "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj.d"
   "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj.d"
   "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj.d"
+  "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj.d"
   "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj.d"
   "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj.d"
   "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj.d"
   "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj.d"
+  "D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj.d"
   "D:/STM32_CODE/H750-clion/HardWare/Src/Lcd_int.c" "CMakeFiles/H750-clion.elf.dir/HardWare/Src/Lcd_int.c.obj" "gcc" "CMakeFiles/H750-clion.elf.dir/HardWare/Src/Lcd_int.c.obj.d"
   )
 

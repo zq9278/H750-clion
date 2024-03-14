@@ -128,6 +128,30 @@ H750-clion.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/build
 .PHONY : H750-clion.elf/fast
 
+Core/Src/fmc.obj: Core/Src/fmc.c.obj
+.PHONY : Core/Src/fmc.obj
+
+# target to build an object file
+Core/Src/fmc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.obj
+.PHONY : Core/Src/fmc.c.obj
+
+Core/Src/fmc.i: Core/Src/fmc.c.i
+.PHONY : Core/Src/fmc.i
+
+# target to preprocess a source file
+Core/Src/fmc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.i
+.PHONY : Core/Src/fmc.c.i
+
+Core/Src/fmc.s: Core/Src/fmc.c.s
+.PHONY : Core/Src/fmc.s
+
+# target to generate assembly for a file
+Core/Src/fmc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.s
+.PHONY : Core/Src/fmc.c.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
 
@@ -151,6 +175,30 @@ Core/Src/gpio.s: Core/Src/gpio.c.s
 Core/Src/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.s
 .PHONY : Core/Src/gpio.c.s
+
+Core/Src/ltdc.obj: Core/Src/ltdc.c.obj
+.PHONY : Core/Src/ltdc.obj
+
+# target to build an object file
+Core/Src/ltdc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.obj
+.PHONY : Core/Src/ltdc.c.obj
+
+Core/Src/ltdc.i: Core/Src/ltdc.c.i
+.PHONY : Core/Src/ltdc.i
+
+# target to preprocess a source file
+Core/Src/ltdc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.i
+.PHONY : Core/Src/ltdc.c.i
+
+Core/Src/ltdc.s: Core/Src/ltdc.c.s
+.PHONY : Core/Src/ltdc.s
+
+# target to generate assembly for a file
+Core/Src/ltdc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.s
+.PHONY : Core/Src/ltdc.c.s
 
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
@@ -592,6 +640,54 @@ Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s
 
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.obj
+
+# target to build an object file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.i: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.i
+
+# target to preprocess a source file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.i
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.s: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.s
+
+# target to generate assembly for a file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.s
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.obj
+
+# target to build an object file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.i: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.i
+
+# target to preprocess a source file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.i
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.s: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.s
+
 Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.obj
 
@@ -712,6 +808,30 @@ Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s
 
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.obj
+
+# target to build an object file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.i: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.i
+
+# target to preprocess a source file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.i
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.s: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.s
+
+# target to generate assembly for a file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.s
+
 Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.obj
 
@@ -808,6 +928,30 @@ Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s
 
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.obj
+
+# target to build an object file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.i: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.i
+
+# target to preprocess a source file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.i
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.s: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.s
+
+# target to generate assembly for a file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H750-clion.elf.dir\build.make CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.s
+
 HardWare/Src/Lcd_int.obj: HardWare/Src/Lcd_int.c.obj
 .PHONY : HardWare/Src/Lcd_int.obj
 
@@ -841,9 +985,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... H750-clion.elf
+	@echo ... Core/Src/fmc.obj
+	@echo ... Core/Src/fmc.i
+	@echo ... Core/Src/fmc.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
+	@echo ... Core/Src/ltdc.obj
+	@echo ... Core/Src/ltdc.i
+	@echo ... Core/Src/ltdc.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
@@ -899,6 +1049,12 @@ help:
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.s
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.obj
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.i
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.s
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.obj
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.i
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.s
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.s
@@ -914,6 +1070,9 @@ help:
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.s
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.obj
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.i
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.s
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.s
@@ -926,6 +1085,9 @@ help:
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.s
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.obj
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.i
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.s
 	@echo ... HardWare/Src/Lcd_int.obj
 	@echo ... HardWare/Src/Lcd_int.i
 	@echo ... HardWare/Src/Lcd_int.s

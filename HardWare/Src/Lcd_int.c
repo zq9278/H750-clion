@@ -100,6 +100,322 @@ void LCD_Init(void) {
     // 发送初始化命令序列
     // 进入命令设置模式
     //***************************************************************//LCD SETING
+
+   // 24位数据初始化
+//    LCD_WriteCommand(0xFF); //PAGE3
+//    LCD_WriteData(0x77);
+//    LCD_WriteData(0x01);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x13);
+//
+//    LCD_WriteCommand(0xEF);
+//    LCD_WriteData(0x08);
+//
+//    LCD_WriteCommand(0xFF);//PAGE01
+//    LCD_WriteData(0x77);
+//    LCD_WriteData(0x01);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x10);
+//
+//    LCD_WriteCommand(0xC0); //Display Line Setting
+//    LCD_WriteData(0x4F);
+//    LCD_WriteData(0x00);
+//
+//    LCD_WriteCommand(0xC1);//Porch Control
+//    LCD_WriteData(0x10);
+//    LCD_WriteData(0x0C);
+//
+//    LCD_WriteCommand(0xC2);// Inversion set
+//    LCD_WriteData(0x01);
+//    LCD_WriteData(0x14);
+//
+//    LCD_WriteCommand(0xCC);
+//    LCD_WriteData(0x10);
+//
+//    LCD_WriteCommand(0xB0);//Positive Voltage Gamma Control
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x0B);
+//    LCD_WriteData(0x13);
+//    LCD_WriteData(0x0D);
+//    LCD_WriteData(0x10);
+//    LCD_WriteData(0x07);
+//    LCD_WriteData(0x02);
+//    LCD_WriteData(0x08);
+//    LCD_WriteData(0x07);
+//    LCD_WriteData(0x1F);
+//    LCD_WriteData(0x04);
+//    LCD_WriteData(0x11);
+//    LCD_WriteData(0x0F);
+//    LCD_WriteData(0x28);
+//    LCD_WriteData(0x2F);
+//    LCD_WriteData(0x1F);
+//
+//    LCD_WriteCommand(0xB1); //Negative Voltage Gamma Control
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x0C);
+//    LCD_WriteData(0x13);
+//    LCD_WriteData(0x0C);
+//    LCD_WriteData(0x10);
+//    LCD_WriteData(0x05);
+//    LCD_WriteData(0x02);
+//    LCD_WriteData(0x08);
+//    LCD_WriteData(0x08);
+//    LCD_WriteData(0x1E);
+//    LCD_WriteData(0x05);
+//    LCD_WriteData(0x13);
+//    LCD_WriteData(0x11);
+//    LCD_WriteData(0x27);
+//    LCD_WriteData(0x30);
+//    LCD_WriteData(0x1F);
+//
+//    LCD_WriteCommand(0xFF);//PAGE1
+//    LCD_WriteData(0x77);
+//    LCD_WriteData(0x01);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x11);
+//
+//    LCD_WriteCommand(0xB0);	//Vop Amplitude setting
+//    LCD_WriteData(0x4D);//
+//
+//    LCD_WriteCommand(0xB1);//VCOM amplitude setting
+//    LCD_WriteData(0x3D);//
+//
+//    LCD_WriteCommand(0xB2);//VGH Voltage setting
+//    LCD_WriteData(0x87);
+//
+//    LCD_WriteCommand(0xB3);//TEST Command Setting
+//    LCD_WriteData(0x80);
+//
+//    LCD_WriteCommand(0xB5);//VGL Voltage setting
+//    LCD_WriteData(0x45);
+//
+//    LCD_WriteCommand(0xB7);//Power Control 1
+//    LCD_WriteData(0x85);
+//
+//    LCD_WriteCommand(0xB8);//Power Control 2
+//    LCD_WriteData(0x20);
+//
+//    LCD_WriteCommand(0xC0);
+//    LCD_WriteData(0x09);
+//
+//    LCD_WriteCommand(0xC1);//Source pre_drive timing set1
+//    LCD_WriteData(0x78);
+//
+//    LCD_WriteCommand(0xC2);//Source EQ2 Setting
+//    LCD_WriteData(0x78);
+//
+//    LCD_WriteCommand(0xD0);//Source EQ2 Setting
+//    LCD_WriteData(0x88);
+//
+//    //HAL_Delay(100);
+//    HAL_Delay(10);
+//    //*********GIP SET*************//
+//    LCD_WriteCommand(0xE0);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x02);
+//
+//    LCD_WriteCommand(0xE1);
+//    LCD_WriteData(0x04);
+//    LCD_WriteData(0xB0);
+//    LCD_WriteData(0x06);
+//    LCD_WriteData(0xB0);
+//    LCD_WriteData(0x05);
+//    LCD_WriteData(0xB0);
+//    LCD_WriteData(0x07);
+//    LCD_WriteData(0xB0);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x44);
+//    LCD_WriteData(0x44);
+//
+//    LCD_WriteCommand(0xE2);
+//    LCD_WriteData(0x20);
+//    LCD_WriteData(0x20);
+//    LCD_WriteData(0x44);
+//    LCD_WriteData(0x44);
+//    LCD_WriteData(0x96);
+//    LCD_WriteData(0xA0);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x96);
+//    LCD_WriteData(0xA0);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//
+//    LCD_WriteCommand(0xE3);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x22);
+//    LCD_WriteData(0x22);
+//
+//    LCD_WriteCommand(0xE4);
+//    LCD_WriteData(0x44);
+//    LCD_WriteData(0x44);
+//
+//    LCD_WriteCommand(0xE5);
+//    LCD_WriteData(0x0C);
+//    LCD_WriteData(0x90);
+//    LCD_WriteData(0xB0);
+//    LCD_WriteData(0xA0);
+//    LCD_WriteData(0x0E);
+//    LCD_WriteData(0x92);
+//    LCD_WriteData(0xB0);
+//    LCD_WriteData(0xA0);
+//    LCD_WriteData(0x08);
+//    LCD_WriteData(0x8C);
+//    LCD_WriteData(0xB0);
+//    LCD_WriteData(0xA0);
+//    LCD_WriteData(0x0A);
+//    LCD_WriteData(0x8E);
+//    LCD_WriteData(0xB0);
+//    LCD_WriteData(0xA0);
+//
+//    LCD_WriteCommand(0xE6);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x22);
+//    LCD_WriteData(0x22);
+//
+//    LCD_WriteCommand(0xE7);
+//    LCD_WriteData(0x44);
+//    LCD_WriteData(0x44);
+//
+//    LCD_WriteCommand(0xE8);
+//    LCD_WriteData(0x0D);
+//    LCD_WriteData(0x91);
+//    LCD_WriteData(0xB0);
+//    LCD_WriteData(0xA0);
+//    LCD_WriteData(0x0F);
+//    LCD_WriteData(0x93);
+//    LCD_WriteData(0xB0);
+//    LCD_WriteData(0xA0);
+//    LCD_WriteData(0x09);
+//    LCD_WriteData(0x8D);
+//    LCD_WriteData(0xB0);
+//    LCD_WriteData(0xA0);
+//    LCD_WriteData(0x0B);
+//    LCD_WriteData(0x8F);
+//    LCD_WriteData(0xB0);
+//    LCD_WriteData(0xA0);
+//
+//    LCD_WriteCommand(0xE9);
+//    LCD_WriteData(0x36);
+//    LCD_WriteData(0x00);
+//
+//    LCD_WriteCommand(0xEB);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0xE4);
+//    LCD_WriteData(0xE4);
+//    LCD_WriteData(0x44);
+//    LCD_WriteData(0x88);
+//    LCD_WriteData(0x40);
+//
+//    LCD_WriteCommand(0xED);
+//    LCD_WriteData(0xC1);
+//    LCD_WriteData(0xA2);
+//    LCD_WriteData(0xBF);
+//    LCD_WriteData(0x0F);
+//    LCD_WriteData(0x67);
+//    LCD_WriteData(0x45);
+//    LCD_WriteData(0xFF);
+//    LCD_WriteData(0xFF);
+//    LCD_WriteData(0xFF);
+//    LCD_WriteData(0xFF);
+//    LCD_WriteData(0x54);
+//    LCD_WriteData(0x76);
+//    LCD_WriteData(0xF0);
+//    LCD_WriteData(0xFB);
+//    LCD_WriteData(0x2A);
+//    LCD_WriteData(0x1C);
+//
+//    LCD_WriteCommand(0xEF);
+//    LCD_WriteData(0x10);
+//    LCD_WriteData(0x0D);
+//    LCD_WriteData(0x04);
+//    LCD_WriteData(0x08);
+//    LCD_WriteData(0x3F);
+//    LCD_WriteData(0x1F);
+//
+//    LCD_WriteCommand(0xFF);
+//    LCD_WriteData(0x77);
+//    LCD_WriteData(0x01);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x13);
+//
+//    LCD_WriteCommand(0xE8);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x0E);
+//
+//    LCD_WriteCommand(0xFF);
+//    LCD_WriteData(0x77);
+//    LCD_WriteData(0x01);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//
+//    LCD_WriteCommand(0x11);
+//    //HAL_Delay(120);
+//    HAL_Delay(12);
+//
+//    LCD_WriteCommand(0xFF);
+//    LCD_WriteData(0x77);
+//    LCD_WriteData(0x01);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x13);
+//
+//    LCD_WriteCommand(0xE8);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x0C);
+//    //HAL_Delay(10);
+//    HAL_Delay(1);
+//
+//    LCD_WriteCommand(0xE8);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//
+//    LCD_WriteCommand(0xFF);
+//    LCD_WriteData(0x77);
+//    LCD_WriteData(0x01);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//    LCD_WriteData(0x00);
+//
+//    LCD_WriteCommand(0x3a);
+//    LCD_WriteData(0x70);//24BIT
+//
+//    LCD_WriteCommand(0x29);//DISPLAY ON
+//    //HAL_Delay(50);
+//    HAL_Delay(5);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ////////////////////////////
     LCD_WriteCommand(0xFF); //PAGE3
     LCD_WriteData(0x77);
     LCD_WriteData(0x01);
@@ -208,8 +524,7 @@ void LCD_Init(void) {
     LCD_WriteCommand(0xD0);//Source EQ2 Setting
     LCD_WriteData(0x88);
 
-    //HAL_Delay(100);
-    HAL_Delay(10);
+    HAL_Delay(100);
     //*********GIP SET*************//
     LCD_WriteCommand(0xE0);
     LCD_WriteData(0x00);
@@ -357,8 +672,7 @@ void LCD_Init(void) {
     LCD_WriteData(0x00);
 
     LCD_WriteCommand(0x11);
-    //HAL_Delay(120);
-    HAL_Delay(12);
+    HAL_Delay(120);
 
     LCD_WriteCommand(0xFF);
     LCD_WriteData(0x77);
@@ -370,8 +684,7 @@ void LCD_Init(void) {
     LCD_WriteCommand(0xE8);
     LCD_WriteData(0x00);
     LCD_WriteData(0x0C);
-    //HAL_Delay(10);
-    HAL_Delay(1);
+    HAL_Delay(10);
 
     LCD_WriteCommand(0xE8);
     LCD_WriteData(0x00);
@@ -385,9 +698,8 @@ void LCD_Init(void) {
     LCD_WriteData(0x00);
 
     LCD_WriteCommand(0x3a);
-    LCD_WriteData(0x70);//24BIT
+    LCD_WriteData(0x50);//16BIT
 
     LCD_WriteCommand(0x29);//DISPLAY ON
-    //HAL_Delay(50);
-    HAL_Delay(5);
+    HAL_Delay(50);
 }
