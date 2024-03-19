@@ -68,511 +68,540 @@ include CMakeFiles/H750-clion.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/H750-clion.elf.dir/flags.make
 
+CMakeFiles/H750-clion.elf.dir/Core/Src/dma2d.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
+CMakeFiles/H750-clion.elf.dir/Core/Src/dma2d.c.obj: D:/STM32_CODE/H750-clion/Core/Src/dma2d.c
+CMakeFiles/H750-clion.elf.dir/Core/Src/dma2d.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/dma2d.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/dma2d.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\dma2d.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\dma2d.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\dma2d.c
+
+CMakeFiles/H750-clion.elf.dir/Core/Src/dma2d.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Core/Src/dma2d.c.i"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\dma2d.c > CMakeFiles\H750-clion.elf.dir\Core\Src\dma2d.c.i
+
+CMakeFiles/H750-clion.elf.dir/Core/Src/dma2d.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Core/Src/dma2d.c.s"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\dma2d.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\dma2d.c.s
+
 CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.obj: D:/STM32_CODE/H750-clion/Core/Src/fmc.c
 CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\fmc.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\fmc.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\fmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\fmc.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\fmc.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\fmc.c
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\fmc.c > CMakeFiles\H750-clion.elf.dir\Core\Src\fmc.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\fmc.c > CMakeFiles\H750-clion.elf.dir\Core\Src\fmc.c.i
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\fmc.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\fmc.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\fmc.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\fmc.c.s
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.obj: D:/STM32_CODE/H750-clion/Core/Src/gpio.c
 CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\gpio.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\gpio.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\gpio.c
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\gpio.c > CMakeFiles\H750-clion.elf.dir\Core\Src\gpio.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\gpio.c > CMakeFiles\H750-clion.elf.dir\Core\Src\gpio.c.i
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\gpio.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\gpio.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\gpio.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\gpio.c.s
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.obj: D:/STM32_CODE/H750-clion/Core/Src/ltdc.c
 CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\ltdc.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\ltdc.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\ltdc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\ltdc.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\ltdc.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\ltdc.c
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\ltdc.c > CMakeFiles\H750-clion.elf.dir\Core\Src\ltdc.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\ltdc.c > CMakeFiles\H750-clion.elf.dir\Core\Src\ltdc.c.i
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\ltdc.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\ltdc.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\ltdc.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\ltdc.c.s
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/main.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Core/Src/main.c.obj: D:/STM32_CODE/H750-clion/Core/Src/main.c
 CMakeFiles/H750-clion.elf.dir/Core/Src/main.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/main.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\main.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/main.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\main.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\main.c
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Core/Src/main.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\main.c > CMakeFiles\H750-clion.elf.dir\Core\Src\main.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\main.c > CMakeFiles\H750-clion.elf.dir\Core\Src\main.c.i
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Core/Src/main.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\main.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\main.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\main.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\main.c.s
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/spi.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Core/Src/spi.c.obj: D:/STM32_CODE/H750-clion/Core/Src/spi.c
 CMakeFiles/H750-clion.elf.dir/Core/Src/spi.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/spi.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\spi.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\spi.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/spi.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\spi.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\spi.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\spi.c
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Core/Src/spi.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\spi.c > CMakeFiles\H750-clion.elf.dir\Core\Src\spi.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\spi.c > CMakeFiles\H750-clion.elf.dir\Core\Src\spi.c.i
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Core/Src/spi.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\spi.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\spi.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\spi.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\spi.c.s
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: D:/STM32_CODE/H750-clion/Core/Src/stm32h7xx_hal_msp.c
 CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_hal_msp.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_hal_msp.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\stm32h7xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_hal_msp.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_hal_msp.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\stm32h7xx_hal_msp.c
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_hal_msp.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\stm32h7xx_hal_msp.c > CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_hal_msp.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\stm32h7xx_hal_msp.c > CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_hal_msp.c.i
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_hal_msp.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\stm32h7xx_hal_msp.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_hal_msp.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\stm32h7xx_hal_msp.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_hal_msp.c.s
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_it.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_it.c.obj: D:/STM32_CODE/H750-clion/Core/Src/stm32h7xx_it.c
 CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_it.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_it.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_it.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_it.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_it.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\stm32h7xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_it.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_it.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_it.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_it.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\stm32h7xx_it.c
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_it.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\stm32h7xx_it.c > CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_it.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\stm32h7xx_it.c > CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_it.c.i
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Core/Src/stm32h7xx_it.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\stm32h7xx_it.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_it.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\stm32h7xx_it.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\stm32h7xx_it.c.s
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Core/Src/syscalls.c.obj: D:/STM32_CODE/H750-clion/Core/Src/syscalls.c
 CMakeFiles/H750-clion.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/syscalls.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\syscalls.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/syscalls.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\syscalls.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\syscalls.c
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Core/Src/syscalls.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\syscalls.c > CMakeFiles\H750-clion.elf.dir\Core\Src\syscalls.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\syscalls.c > CMakeFiles\H750-clion.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Core/Src/syscalls.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\syscalls.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\syscalls.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\syscalls.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Core/Src/sysmem.c.obj: D:/STM32_CODE/H750-clion/Core/Src/sysmem.c
 CMakeFiles/H750-clion.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/sysmem.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\sysmem.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\sysmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/sysmem.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\sysmem.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\sysmem.c
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Core/Src/sysmem.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\sysmem.c > CMakeFiles\H750-clion.elf.dir\Core\Src\sysmem.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\sysmem.c > CMakeFiles\H750-clion.elf.dir\Core\Src\sysmem.c.i
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Core/Src/sysmem.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\sysmem.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\sysmem.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\sysmem.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\sysmem.c.s
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/system_stm32h7xx.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Core/Src/system_stm32h7xx.c.obj: D:/STM32_CODE/H750-clion/Core/Src/system_stm32h7xx.c
 CMakeFiles/H750-clion.elf.dir/Core/Src/system_stm32h7xx.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/system_stm32h7xx.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/system_stm32h7xx.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\system_stm32h7xx.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\system_stm32h7xx.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\system_stm32h7xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/H750-clion.elf.dir/Core/Src/system_stm32h7xx.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Core/Src/system_stm32h7xx.c.obj -MF CMakeFiles\H750-clion.elf.dir\Core\Src\system_stm32h7xx.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Core\Src\system_stm32h7xx.c.obj -c D:\STM32_CODE\H750-clion\Core\Src\system_stm32h7xx.c
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/system_stm32h7xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Core/Src/system_stm32h7xx.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\system_stm32h7xx.c > CMakeFiles\H750-clion.elf.dir\Core\Src\system_stm32h7xx.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Src\system_stm32h7xx.c > CMakeFiles\H750-clion.elf.dir\Core\Src\system_stm32h7xx.c.i
 
 CMakeFiles/H750-clion.elf.dir/Core/Src/system_stm32h7xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Core/Src/system_stm32h7xx.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\system_stm32h7xx.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\system_stm32h7xx.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Src\system_stm32h7xx.c -o CMakeFiles\H750-clion.elf.dir\Core\Src\system_stm32h7xx.c.s
 
 CMakeFiles/H750-clion.elf.dir/Core/Startup/startup_stm32h750xbhx.s.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Core/Startup/startup_stm32h750xbhx.s.obj: D:/STM32_CODE/H750-clion/Core/Startup/startup_stm32h750xbhx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/H750-clion.elf.dir/Core/Startup/startup_stm32h750xbhx.s.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\H750-clion.elf.dir\Core\Startup\startup_stm32h750xbhx.s.obj -c D:\STM32_CODE\H750-clion\Core\Startup\startup_stm32h750xbhx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/H750-clion.elf.dir/Core/Startup/startup_stm32h750xbhx.s.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\H750-clion.elf.dir\Core\Startup\startup_stm32h750xbhx.s.obj -c D:\STM32_CODE\H750-clion\Core\Startup\startup_stm32h750xbhx.s
 
 CMakeFiles/H750-clion.elf.dir/Core/Startup/startup_stm32h750xbhx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/H750-clion.elf.dir/Core/Startup/startup_stm32h750xbhx.s.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Startup\startup_stm32h750xbhx.s > CMakeFiles\H750-clion.elf.dir\Core\Startup\startup_stm32h750xbhx.s.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E D:\STM32_CODE\H750-clion\Core\Startup\startup_stm32h750xbhx.s > CMakeFiles\H750-clion.elf.dir\Core\Startup\startup_stm32h750xbhx.s.i
 
 CMakeFiles/H750-clion.elf.dir/Core/Startup/startup_stm32h750xbhx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/H750-clion.elf.dir/Core/Startup/startup_stm32h750xbhx.s.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Startup\startup_stm32h750xbhx.s -o CMakeFiles\H750-clion.elf.dir\Core\Startup\startup_stm32h750xbhx.s.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S D:\STM32_CODE\H750-clion\Core\Startup\startup_stm32h750xbhx.s -o CMakeFiles\H750-clion.elf.dir\Core\Startup\startup_stm32h750xbhx.s.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.s
+
+CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
+CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c
+CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma2d.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma2d.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma2d.c
+
+CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.i"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma2d.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma2d.c.i
+
+CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.s"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma2d.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma2d.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc_ex.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc_ex.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc_ex.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc_ex.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_ltdc_ex.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sdram.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sdram.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sdram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sdram.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sdram.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sdram.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sdram.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sdram.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sdram.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sdram.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sdram.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sdram.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sdram.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sdram.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.s
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj: D:/STM32_CODE/H750-clion/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmc.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmc.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj -MF CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmc.c.obj.d -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmc.c.obj -c D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmc.c
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmc.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmc.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmc.c > CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmc.c.i
 
 CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmc.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmc.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmc.c -o CMakeFiles\H750-clion.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmc.c.s
 
 CMakeFiles/H750-clion.elf.dir/HardWare/Src/Lcd_int.c.obj: CMakeFiles/H750-clion.elf.dir/flags.make
 CMakeFiles/H750-clion.elf.dir/HardWare/Src/Lcd_int.c.obj: D:/STM32_CODE/H750-clion/HardWare/Src/Lcd_int.c
 CMakeFiles/H750-clion.elf.dir/HardWare/Src/Lcd_int.c.obj: CMakeFiles/H750-clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/H750-clion.elf.dir/HardWare/Src/Lcd_int.c.obj"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/HardWare/Src/Lcd_int.c.obj -MF CMakeFiles\H750-clion.elf.dir\HardWare\Src\Lcd_int.c.obj.d -o CMakeFiles\H750-clion.elf.dir\HardWare\Src\Lcd_int.c.obj -c D:\STM32_CODE\H750-clion\HardWare\Src\Lcd_int.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/H750-clion.elf.dir/HardWare/Src/Lcd_int.c.obj"
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/H750-clion.elf.dir/HardWare/Src/Lcd_int.c.obj -MF CMakeFiles\H750-clion.elf.dir\HardWare\Src\Lcd_int.c.obj.d -o CMakeFiles\H750-clion.elf.dir\HardWare\Src\Lcd_int.c.obj -c D:\STM32_CODE\H750-clion\HardWare\Src\Lcd_int.c
 
 CMakeFiles/H750-clion.elf.dir/HardWare/Src/Lcd_int.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/H750-clion.elf.dir/HardWare/Src/Lcd_int.c.i"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\HardWare\Src\Lcd_int.c > CMakeFiles\H750-clion.elf.dir\HardWare\Src\Lcd_int.c.i
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32_CODE\H750-clion\HardWare\Src\Lcd_int.c > CMakeFiles\H750-clion.elf.dir\HardWare\Src\Lcd_int.c.i
 
 CMakeFiles/H750-clion.elf.dir/HardWare/Src/Lcd_int.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/H750-clion.elf.dir/HardWare/Src/Lcd_int.c.s"
-	D:\SoftWare\STM32Cube\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\HardWare\Src\Lcd_int.c -o CMakeFiles\H750-clion.elf.dir\HardWare\Src\Lcd_int.c.s
+	C:\PROGRA~1\STMICR~1\STM32C~1\GCC-AR~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32_CODE\H750-clion\HardWare\Src\Lcd_int.c -o CMakeFiles\H750-clion.elf.dir\HardWare\Src\Lcd_int.c.s
 
 # Object files for target H750-clion.elf
 H750__clion_elf_OBJECTS = \
+"CMakeFiles/H750-clion.elf.dir/Core/Src/dma2d.c.obj" \
 "CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.obj" \
 "CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.obj" \
@@ -587,6 +616,7 @@ H750__clion_elf_OBJECTS = \
 "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj" \
 "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj" \
 "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj" \
+"CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj" \
 "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj" \
 "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj" \
 "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj" \
@@ -613,6 +643,7 @@ H750__clion_elf_OBJECTS = \
 # External object files for target H750-clion.elf
 H750__clion_elf_EXTERNAL_OBJECTS =
 
+H750-clion.elf: CMakeFiles/H750-clion.elf.dir/Core/Src/dma2d.c.obj
 H750-clion.elf: CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.obj
 H750-clion.elf: CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.obj
 H750-clion.elf: CMakeFiles/H750-clion.elf.dir/Core/Src/ltdc.c.obj
@@ -627,6 +658,7 @@ H750-clion.elf: CMakeFiles/H750-clion.elf.dir/Core/Startup/startup_stm32h750xbhx
 H750-clion.elf: CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
 H750-clion.elf: CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
 H750-clion.elf: CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+H750-clion.elf: CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj
 H750-clion.elf: CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
 H750-clion.elf: CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
 H750-clion.elf: CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
@@ -651,7 +683,7 @@ H750-clion.elf: CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/s
 H750-clion.elf: CMakeFiles/H750-clion.elf.dir/HardWare/Src/Lcd_int.c.obj
 H750-clion.elf: CMakeFiles/H750-clion.elf.dir/build.make
 H750-clion.elf: CMakeFiles/H750-clion.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking C executable H750-clion.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\STM32_CODE\H750-clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking C executable H750-clion.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\H750-clion.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/STM32_CODE/H750-clion/cmake-build-debug/H750-clion.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/STM32_CODE/H750-clion/cmake-build-debug/H750-clion.bin"

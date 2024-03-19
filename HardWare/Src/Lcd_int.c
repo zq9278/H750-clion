@@ -95,7 +95,7 @@ void LCD_Init(void) {
     HAL_Delay(1);    // 延时10ms
     LCD_RESET_HIGH(); // 复位引脚置高，结束复位
     //HAL_Delay(120);   // 延时120ms等待LCD准备好
-    HAL_Delay(12);   // 延时120ms等待LCD准备好
+    HAL_Delay(1);   // 延时120ms等待LCD准备好
 
     // 发送初始化命令序列
     // 进入命令设置模式
@@ -703,3 +703,43 @@ void LCD_Init(void) {
     LCD_WriteCommand(0x29);//DISPLAY ON
     HAL_Delay(50);
 }
+//////////////////////////////////////
+
+//展示初始化图片用的
+//LCD_WriteCommand(0xD2);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x00);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x01);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x02);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x03);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x04);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x05);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x06);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x07);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x08);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x09);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x0A);
+//      HAL_Delay(1000);
+//      LCD_WriteCommand(0xD2);
+//      LCD_WriteData(0x0B);
+//      HAL_Delay(1000);

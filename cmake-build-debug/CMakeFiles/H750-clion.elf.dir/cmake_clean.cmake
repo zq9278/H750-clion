@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/H750-clion.elf.dir/Core/Src/dma2d.c.obj"
+  "CMakeFiles/H750-clion.elf.dir/Core/Src/dma2d.c.obj.d"
   "CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.obj"
   "CMakeFiles/H750-clion.elf.dir/Core/Src/fmc.c.obj.d"
   "CMakeFiles/H750-clion.elf.dir/Core/Src/gpio.c.obj"
@@ -26,6 +28,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj.d"
   "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj"
   "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj.d"
+  "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj"
+  "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj.d"
   "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj"
   "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj.d"
   "CMakeFiles/H750-clion.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj"
