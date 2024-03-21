@@ -31,7 +31,9 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "lvgl.h"
+#include "lv_port_disp_template.h"
+//#include "lvgl.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
