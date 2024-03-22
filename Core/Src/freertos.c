@@ -22,11 +22,11 @@
 #include "task.h"
 #include "main.h"
 #include "cmsis_os.h"
-#include "Lcd_int.h"
+
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "touch.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -131,68 +131,24 @@ void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN StartDefaultTask */
   /* Infinite loop */
-//    lv_init();
-//    lv_port_disp_init();
+    FT5206_Init_SoftI2C();
+    lv_init();
+    lv_port_disp_init();
 //    HAL_Delay(10);
 //    lv_obj_t *label = lv_label_create(lv_scr_act());
 //    lv_label_set_text(label,"niaho");
 //    lv_obj_center(label);
-//    lv_obj_t *switch_obj = lv_switch_create(lv_scr_act());
-//
-//    lv_obj_set_size(switch_obj, 120, 60);
-//
-//    lv_obj_align(switch_obj, LV_ALIGN_CENTER, 0, 0);
-    HAL_Delay(2);
-    LCD_WriteCommand(0xFF);
-    LCD_WriteData(0x77);
-    LCD_WriteData(0x01);
-    LCD_WriteData(0x00);
-    LCD_WriteData(0x00);
-    LCD_WriteData(0x12);
-    LCD_WriteCommand(0xD1);
-    LCD_WriteData(0x81);
+    lv_obj_t *switch_obj = lv_switch_create(lv_scr_act());
+
+    lv_obj_set_size(switch_obj, 120, 60);
+
+    lv_obj_align(switch_obj, LV_ALIGN_CENTER, 0, 0);
 
   for(;;)
   {
-    //osDelay(1);
-      HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x00);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x01);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x02);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x03);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x04);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x05);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x06);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x07);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x08);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x09);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x0A);
-      HAL_Delay(1000);
-      LCD_WriteCommand(0xD2);
-      LCD_WriteData(0x0B);
-      HAL_Delay(1000);
-      //lv_timer_handler();
+    osDelay(1);
+      FT5206_Scan_SoftI2C(0 );
+      lv_timer_handler();
   }
   /* USER CODE END StartDefaultTask */
 }

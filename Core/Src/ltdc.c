@@ -247,16 +247,16 @@ void HAL_LTDC_MspDeInit(LTDC_HandleTypeDef* ltdcHandle)
 /* USER CODE BEGIN 1 */
 //画点函数
 //x,y:写入坐标
-//color:颜色�???
+//color:颜色�???
 void LTDC_Draw_Point(uint16_t x,uint16_t y,uint16_t color)
 {
 
-    // �?查坐标是否在屏幕范围�?
+    // �?查坐标是否在屏幕范围�?
     if ((x < LCD_WIDTH) && (y < LCD_HEIGHT)) {
-        // 计算目标像素在帧缓冲区中的偏�?
+        // 计算目标像素在帧缓冲区中的偏�?
         uint32_t pixelOffset = (y * LCD_WIDTH) + x;
 
-        // 通过地址偏移访问帧缓冲区，并写入颜色�?
+        // 通过地址偏移访问帧缓冲区，并写入颜色�?
         *((uint16_t*)LCD_FRAME_BUF_ADDR + pixelOffset) = color;
     }
 

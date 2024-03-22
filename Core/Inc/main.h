@@ -59,8 +59,12 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define SDI_GPIO_Port_Pin GPIO_PIN_5
-#define SDI_GPIO_Port_GPIO_Port GPIOD
+#define I2C_SCL_Pin GPIO_PIN_5
+#define I2C_SCL_GPIO_Port GPIOD
+#define I2C_SDA_Pin GPIO_PIN_4
+#define I2C_SDA_GPIO_Port GPIOD
+#define FT_RST_Pin GPIO_PIN_3
+#define FT_RST_GPIO_Port GPIOD
 #define SCLB_Pin_Pin GPIO_PIN_7
 #define SCLB_Pin_GPIO_Port GPIOD
 #define CSB_GPIO_Port_Pin GPIO_PIN_13
