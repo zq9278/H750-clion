@@ -92,23 +92,15 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_SPI1_Init();
-    LCD_Init();
-  MX_FMC_Init();
-  MX_LTDC_Init();
-  MX_DMA2D_Init();
+  LCD_Init();
+  //MX_FMC_Init();
+  //MX_LTDC_Init();
+  //MX_DMA2D_Init();
   /* USER CODE BEGIN 2 */
 
     //LCD_Init();
     //HAL_Delay(1000);
-    HAL_Delay(2);
-//    LCD_WriteCommand(0xFF);
-//    LCD_WriteData(0x77);
-//    LCD_WriteData(0x01);
-//    LCD_WriteData(0x00);
-//    LCD_WriteData(0x00);
-//    LCD_WriteData(0x12);
-//    LCD_WriteCommand(0xD1);
-//    LCD_WriteData(0x81);
+
 
   /* USER CODE END 2 */
 
