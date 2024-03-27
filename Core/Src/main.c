@@ -18,8 +18,6 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "cmsis_os.h"
-#include "dma2d.h"
 #include "ltdc.h"
 #include "spi.h"
 #include "gpio.h"
@@ -28,6 +26,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "Lcd_int.h"
+#include "ui.h"
+#include "touch.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -53,7 +53,6 @@
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
-void MX_FREERTOS_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -94,19 +93,27 @@ int main(void)
   MX_SPI1_Init();
   MX_FMC_Init();
   MX_LTDC_Init();
-  MX_DMA2D_Init();
   /* USER CODE BEGIN 2 */
     //LCD_Init();
+    //FT5206_Init_SoftI2C();
+    lv_init();
+    lv_port_disp_init();
+    ui_init();
+    HAL_Delay(10);
+//    HAL_Delay(10);
+//    lv_obj_t *label = lv_label_create(lv_scr_act());
+//    lv_label_set_text(label,"niaho");
+//    lv_obj_center(label);
+//
+//    lv_obj_t *switch_obj = lv_switch_create(lv_scr_act());
+//
+//    lv_obj_set_size(switch_obj, 120, 60);
+//
+   // lv_obj_align(switch_obj, LV_ALIGN_CENTER, 0, 0);
+
+
   /* USER CODE END 2 */
 
-  /* Init scheduler */
-  osKernelInitialize();  /* Call init function for freertos objects (in freertos.c) */
-  MX_FREERTOS_Init();
-
-  /* Start scheduler */
-  osKernelStart();
-
-  /* We should never get here as control is now taken by the scheduler */
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
@@ -116,6 +123,12 @@ int main(void)
     /* USER CODE BEGIN 3 */
 
 
+
+      HAL_Delay(20);
+          //FT5206_Scan_SoftI2C(0 );
+          lv_timer_handler();
+
+      HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
 
 
 

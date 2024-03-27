@@ -9,11 +9,11 @@
 //#define FT5206_I2C_SCL_Pin           GPIO_PIN_10 // 示例SCL引脚
 //#define FT5206_I2C_SDA_GPIO_Port     GPIOB // 示例SDA端口
 //#define FT5206_I2C_SDA_Pin           GPIO_PIN_11 // 示例SDA引脚
-//#define SDA_IN()  {GPIOD->MODER&=~(GPIO_MODER_MODE0<<(4*2));GPIOD->MODER|=0<<4*2;} // PD4输入模式
-//#define SDA_OUT() {GPIOD->MODER&=~(GPIO_MODER_MODE0<<(4*2));GPIOD->MODER|=1<<4*2;} // PD4输出模式
+#define SDA_IN()  {GPIOD->MODER&=~(GPIO_MODER_MODE0<<(4*2));GPIOD->MODER|=0<<4*2;} // PD4输入模式
+#define SDA_OUT() {GPIOD->MODER&=~(GPIO_MODER_MODE0<<(4*2));GPIOD->MODER|=1<<4*2;} // PD4输出模式
 
-#define SDA_IN()  {GPIOD->MODER &= ~(3UL << (4 * 2)); GPIOD->MODER |= (0 << (4 * 2));} // PD4输入模式
-#define SDA_OUT() {GPIOD->MODER &= ~(3UL << (4 * 2)); GPIOD->MODER |= (1 << (4 * 2));} // PD4输出模式
+//#define SDA_IN()  {GPIOD->MODER &= ~(3UL << (4 * 2)); GPIOD->MODER |= (0 << (4 * 2));} // PD4输入模式
+//#define SDA_OUT() {GPIOD->MODER &= ~(3UL << (4 * 2)); GPIOD->MODER |= (1 << (4 * 2));} // PD4输出模式
 #define FT_RST(n)  (n?HAL_GPIO_WritePin(GPIOD,GPIO_PIN_3,GPIO_PIN_SET):HAL_GPIO_WritePin(GPIOD,GPIO_PIN_3,GPIO_PIN_RESET))//FT5206复位引脚
 
 

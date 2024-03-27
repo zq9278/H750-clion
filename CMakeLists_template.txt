@@ -48,7 +48,7 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(${includes} HardWare/Inc lvgl lvgl/demos/stress lvgl/demos/music)
+include_directories(${includes} HardWare/Inc lvgl  lvgl/demos/keypad_encoder)
 
 add_definitions(${defines})
 

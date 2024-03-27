@@ -92,8 +92,10 @@ uint8_t I2C_Wait_Ack(void) {
 // I2C发送一个字节
 void I2C_Send_Byte(uint8_t byte) {
     uint8_t i = 8;
+    SDA_OUT();
+    I2C_SCL_L();  // 准备数据
     while(i--) {
-        I2C_SCL_L();  // 准备数据
+
         HAL_Delay(1);
         if(byte & 0x80) I2C_SDA_H();
         else I2C_SDA_L();
@@ -169,7 +171,7 @@ uint8_t FT5206_WR_Reg_SoftI2C(uint16_t reg, uint8_t *buf, uint8_t len) {
             break;
         }
     }
-    I2C_Stop();                  // 生成停止条件
+    //I2C_Stop();                  // 生成停止条件
     return ret;
 }
 

@@ -101,10 +101,10 @@ void HAL_LTDC_MspInit(LTDC_HandleTypeDef* ltdcHandle)
   */
     PeriphClkInitStruct.PeriphClockSelection = RCC_PERIPHCLK_LTDC;
     PeriphClkInitStruct.PLL3.PLL3M = 25;
-    PeriphClkInitStruct.PLL3.PLL3N = 330;
+    PeriphClkInitStruct.PLL3.PLL3N = 400;
     PeriphClkInitStruct.PLL3.PLL3P = 2;
     PeriphClkInitStruct.PLL3.PLL3Q = 2;
-    PeriphClkInitStruct.PLL3.PLL3R = 15;
+    PeriphClkInitStruct.PLL3.PLL3R = 20;
     PeriphClkInitStruct.PLL3.PLL3RGE = RCC_PLL3VCIRANGE_0;
     PeriphClkInitStruct.PLL3.PLL3VCOSEL = RCC_PLL3VCOWIDE;
     PeriphClkInitStruct.PLL3.PLL3FRACN = 0;
@@ -187,6 +187,11 @@ void HAL_LTDC_MspInit(LTDC_HandleTypeDef* ltdcHandle)
     GPIO_InitStruct.Alternate = GPIO_AF9_LTDC;
     HAL_GPIO_Init(GPIOH, &GPIO_InitStruct);
 
+    /* LTDC interrupt Init */
+    HAL_NVIC_SetPriority(LTDC_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(LTDC_IRQn);
+    HAL_NVIC_SetPriority(LTDC_ER_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(LTDC_ER_IRQn);
   /* USER CODE BEGIN LTDC_MspInit 1 */
 
   /* USER CODE END LTDC_MspInit 1 */
@@ -238,8 +243,12 @@ void HAL_LTDC_MspDeInit(LTDC_HandleTypeDef* ltdcHandle)
 
     HAL_GPIO_DeInit(GPIOI, GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14);
 
+    /* LTDC interrupt Deinit */
+    HAL_NVIC_DisableIRQ(LTDC_IRQn);
+    HAL_NVIC_DisableIRQ(LTDC_ER_IRQn);
   /* USER CODE BEGIN LTDC_MspDeInit 1 */
-
+      HAL_NVIC_SetPriority(LTDC_IRQn,0xE,0);
+      HAL_NVIC_EnableIRQ(LTDC_IRQn);
   /* USER CODE END LTDC_MspDeInit 1 */
   }
 }
@@ -247,16 +256,16 @@ void HAL_LTDC_MspDeInit(LTDC_HandleTypeDef* ltdcHandle)
 /* USER CODE BEGIN 1 */
 //画点函数
 //x,y:写入坐标
-//color:颜色�???
+//color:颜色�????
 void LTDC_Draw_Point(uint16_t x,uint16_t y,uint16_t color)
 {
 
-    // �?查坐标是否在屏幕范围�?
+    // �??查坐标是否在屏幕范围�??
     if ((x < LCD_WIDTH) && (y < LCD_HEIGHT)) {
-        // 计算目标像素在帧缓冲区中的偏�?
+        // 计算目标像素在帧缓冲区中的偏�??
         uint32_t pixelOffset = (y * LCD_WIDTH) + x;
 
-        // 通过地址偏移访问帧缓冲区，并写入颜色�?
+        // 通过地址偏移访问帧缓冲区，并写入颜色�??
         *((uint16_t*)LCD_FRAME_BUF_ADDR + pixelOffset) = color;
     }
 
