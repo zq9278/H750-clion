@@ -22,6 +22,7 @@
 #include "stm32h7xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "touch.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -42,6 +43,7 @@
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
 static uint8_t wTransferState;
+extern uint8_t ISPressed;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -55,6 +57,7 @@ static uint8_t wTransferState;
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
+extern DMA2D_HandleTypeDef hdma2d;
 extern LTDC_HandleTypeDef hltdc;
 extern SPI_HandleTypeDef hspi1;
 /* USER CODE BEGIN EV */
@@ -200,6 +203,20 @@ void SysTick_Handler(void)
 /******************************************************************************/
 
 /**
+  * @brief This function handles EXTI line[9:5] interrupts.
+  */
+void EXTI9_5_IRQHandler(void)
+{
+  /* USER CODE BEGIN EXTI9_5_IRQn 0 */
+
+  /* USER CODE END EXTI9_5_IRQn 0 */
+  HAL_GPIO_EXTI_IRQHandler(touch_INT_Pin);
+  /* USER CODE BEGIN EXTI9_5_IRQn 1 */
+
+  /* USER CODE END EXTI9_5_IRQn 1 */
+}
+
+/**
   * @brief This function handles SPI1 global interrupt.
   */
 void SPI1_IRQHandler(void)
@@ -217,14 +234,21 @@ void SPI1_IRQHandler(void)
   * @brief This function handles LTDC global interrupt.
   */
 void LTDC_IRQHandler(void)
-{static uint8_t wTransferState;
+{
   /* USER CODE BEGIN LTDC_IRQn 0 */
 
   /* USER CODE END LTDC_IRQn 0 */
   HAL_LTDC_IRQHandler(&hltdc);
   /* USER CODE BEGIN LTDC_IRQn 1 */
-    LTDC->ICR = (uint32_t)LTDC_IER_LIE;
-    wTransferState = 1;
+//    LTDC->ICR = (uint32_t)LTDC_IER_LIE;
+//    wTransferState = 1;···········································
+
+//    if (LTDC->ISR & LTDC_ISR_LIF) { // �??查行中断标志�??
+//        LTDC->ICR = LTDC_ICR_CLIF; // 清除行中断标志位
+//        wTransferState = 1;
+
+        // 在这里添加行中断处理代码
+    //}
   /* USER CODE END LTDC_IRQn 1 */
 }
 
@@ -242,6 +266,26 @@ void LTDC_ER_IRQHandler(void)
   /* USER CODE END LTDC_ER_IRQn 1 */
 }
 
+/**
+  * @brief This function handles DMA2D global interrupt.
+  */
+void DMA2D_IRQHandler(void)
+{
+  /* USER CODE BEGIN DMA2D_IRQn 0 */
+
+  /* USER CODE END DMA2D_IRQn 0 */
+  HAL_DMA2D_IRQHandler(&hdma2d);
+  /* USER CODE BEGIN DMA2D_IRQn 1 */
+
+  /* USER CODE END DMA2D_IRQn 1 */
+}
+
 /* USER CODE BEGIN 1 */
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
+    if (GPIO_Pin == GPIO_PIN_8) {
+        // 处理中断，例如：切换LED的状�???
+        FT5206_RD_Reg_SoftI2C(0x03,&ISPressed,1);
+    }
+}
 
 /* USER CODE END 1 */

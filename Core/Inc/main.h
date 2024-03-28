@@ -69,6 +69,9 @@ void Error_Handler(void);
 #define SCLB_Pin_GPIO_Port GPIOD
 #define CSB_GPIO_Port_Pin GPIO_PIN_13
 #define CSB_GPIO_Port_GPIO_Port GPIOH
+#define touch_INT_Pin GPIO_PIN_8
+#define touch_INT_GPIO_Port GPIOI
+#define touch_INT_EXTI_IRQn EXTI9_5_IRQn
 #define LCD_RESET_Pin GPIO_PIN_8
 #define LCD_RESET_GPIO_Port GPIOH
 

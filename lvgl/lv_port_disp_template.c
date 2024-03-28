@@ -122,7 +122,7 @@ void lv_port_disp_init(void)
     static lv_color_t *buf_3_2 = (lv_color_t * )((0xC0000000 + MY_DISP_HOR_RES * MY_DISP_VER_RES*2) + MY_DISP_HOR_RES*MY_DISP_VER_RES*sizeof(lv_color_t));
     lv_disp_draw_buf_init(&draw_buf_dsc_3, buf_3_1, buf_3_2, MY_DISP_HOR_RES * MY_DISP_VER_RES);   /*Initialize the display buffer*/
 
-
+//
 
 
 
@@ -195,12 +195,14 @@ void disp_disable_update(void)
 static void disp_flush(lv_disp_drv_t * disp_drv, const lv_area_t * area, lv_color_t * color_p)
 {
 
-    //while (wTransferState== 0){}
-    //wTransferState = 0;
-    //LTDC_Layer1->CFBAR = (uint32_t)color_p;			// 切换显存地址
-            __HAL_LTDC_LAYER(&hltdc, 0)->CFBAR =(uint32_t)color_p;
-    __HAL_LTDC_RELOAD_IMMEDIATE_CONFIG(&hltdc);
+    //··while (wTransferState== 0){}
 
+
+//    wTransferState = 0;
+    LTDC_Layer1->CFBAR = (uint32_t)color_p;
+            __HAL_LTDC_LAYER(&hltdc, 0)->CFBAR =(uint32_t)color_p;// 切换显存地址
+    __HAL_LTDC_RELOAD_IMMEDIATE_CONFIG(&hltdc);//立即生效
+//
 
 
 //    if(disp_flush_enabled) {

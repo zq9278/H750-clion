@@ -194,6 +194,11 @@ void HAL_LTDC_MspInit(LTDC_HandleTypeDef* ltdcHandle)
     HAL_NVIC_EnableIRQ(LTDC_ER_IRQn);
   /* USER CODE BEGIN LTDC_MspInit 1 */
 
+//      LTDC->LIPCR =654 ; // 设置行中断位�??
+//      LTDC->IER |= LTDC_IER_LIE; // 使能行中�??
+//      //HAL_NVIC_SetPriority(LTDC_IRQn, 0, 0); // 设置NVIC优先�??
+//      //HAL_NVIC_EnableIRQ(LTDC_IRQn); // 使能LTDC中断向量
+//      LTDC->SRCR |= (1<<1);
   /* USER CODE END LTDC_MspInit 1 */
   }
 }
@@ -256,19 +261,23 @@ void HAL_LTDC_MspDeInit(LTDC_HandleTypeDef* ltdcHandle)
 /* USER CODE BEGIN 1 */
 //画点函数
 //x,y:写入坐标
-//color:颜色�????
+//color:颜色�???????
 void LTDC_Draw_Point(uint16_t x,uint16_t y,uint16_t color)
 {
 
-    // �??查坐标是否在屏幕范围�??
+    // �?????查坐标是否在屏幕范围�?????
     if ((x < LCD_WIDTH) && (y < LCD_HEIGHT)) {
-        // 计算目标像素在帧缓冲区中的偏�??
+        // 计算目标像素在帧缓冲区中的偏�?????
         uint32_t pixelOffset = (y * LCD_WIDTH) + x;
 
-        // 通过地址偏移访问帧缓冲区，并写入颜色�??
+        // 通过地址偏移访问帧缓冲区，并写入颜色�?????
         *((uint16_t*)LCD_FRAME_BUF_ADDR + pixelOffset) = color;
     }
 
 }
 
+void LTDC_LineInterruptConfig(uint32_t LineNumber) {
+    // 确保LineNumber在有效范围内
+
+}
 /* USER CODE END 1 */
